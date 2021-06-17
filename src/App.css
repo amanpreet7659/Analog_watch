@@ -18,8 +18,8 @@ body {
 }
 
 .clock {
-  width           : 300px;
-  height          : 300px;
+  width           : 200px;
+  height          : 200px;
   background-color: rgba(230, 57, 57, 0.8);
   /* rgba(255,255,255,0.8) */
   border-radius   : 50%;
@@ -34,8 +34,8 @@ body {
 
 .clock::after {
   content         : '';
-  height          : 30px;
-  width           : 30px;
+  height          : 20px;
+  width           : 20px;
   border-radius   : 50%;
   background-color: black;
   position        : absolute;
@@ -175,19 +175,19 @@ body {
 
 .clock .hand.second {
   width           : 5px;
-  height          : 45%;
+  height          : 35%;
   background-color: red;
 }
 
 .clock .hand.minute {
   width           : 7px;
-  height          : 40%;
+  height          : 30%;
   background-color: black;
 }
 
 .clock .hand.hour {
-  width           : 10px;
-  height          : 30%;
+  width           : 7px;
+  height          : 22%;
   background-color: black;
 }
 
