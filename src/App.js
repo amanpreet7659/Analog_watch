@@ -13,14 +13,25 @@ function App() {
   })
   return (
     <div className="App">
-      <AnalogCock setShow={setShow} />
+      {/* <AnalogCock setShow={setShow} />
       {show && <DigitalClock />}
       <br></br>
       <div>
         <Rbuttons check={check} setCheck={setCheck} />
       </div>
       <Timezone check={check} setCheck={setCheck} search={check.search} compare={check.compare} />
-      <br></br>
+      <br></br> */}
+      <div className="firstDiv">
+      <AnalogCock setShow={setShow} />
+        {show && <DigitalClock />}
+        <br></br>
+        <div>
+          <Rbuttons check={check} setCheck={setCheck} />
+        </div></div>
+      <div className="secondDiv">
+      <Timezone check={check} setCheck={setCheck} search={check.search} compare={check.compare} />
+        <br></br>
+      </div>
     </div>
   );
 }

@@ -90,7 +90,7 @@ const Timezone = ({ search, compare, setCheck }) => {
             <br></br>
             {
                 search === true && <div
-                    style={{ maxHeight: 'calc(58vh - 248px)', overflowY: 'auto' }}
+                    style={{ maxHeight: 'calc(121vh - 250px)', overflowY: 'auto' }}
                 >
                     <InfiniteScroll
                         dataLength={timeZone.length}

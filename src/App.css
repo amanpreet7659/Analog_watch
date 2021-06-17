@@ -9,9 +9,9 @@
 
 body {
   background     : rgb(238, 235, 235);
-  display        : flex;
+  /* display        : flex; */
   justify-content: center;
-  align-items    : center;
+  /* align-items    : center; */
   min-height     : 100vh;
   overflow       : hidden;
   width          : 100%;
@@ -347,3 +347,20 @@ body {
   box-sizing             : border-box;
   width                  : 70% !important;
 } */
+
+.App {
+  display: flex;
+}
+
+.firstDiv {
+  /* margin: auto; */
+  width : 100%;
+  /* border: 2px black solid; */
+}
+
+.secondDiv {
+  /* margin: auto; */
+  width : 100%;
+  /* border: 2px black solid; */
+
+}
