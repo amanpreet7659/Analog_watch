@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import Clock from './Clock';
 
-const AnalogCock = () => {
+const AnalogCock = ({ setShow }) => {
     const [state, setState] = useState({
         secondRatio: 0,
         minuteRatio: 0,
@@ -21,7 +21,7 @@ const AnalogCock = () => {
         setInterval(setClock, 1000)
     }, [])
     return (
-        <div>
+        <div onClick={() => { setShow(pre => !pre) }}>
             <Clock secondRatio={state.secondRatio} minuteRatio={state.minuteRatio} hourRatio={state.hourRatio} />
         </div>
     )
